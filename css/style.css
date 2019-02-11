@@ -1334,10 +1334,12 @@ html, body{ height: 100%; }
   font-size: 58px;
 }
 .panel-pricing .list-group-item {
+  text-align: left;
   color: #202020;
   border-bottom: 1px solid rgba(250, 250, 250, 0.5);
   font-family: 'Roboto', sans-serif;
   padding: 10px 15px;
+  padding-left: 30%;
 }
 .panel-pricing .list-group-item:last-child {
   border-bottom-right-radius: 0px;
@@ -1348,6 +1350,7 @@ html, body{ height: 100%; }
   border-top-left-radius: 0px;
 }
 .panel-pricing .panel-body {
+  height: 4em;
   background-color: #f0f0f0;
   font-size: 40px;
   color: #777777;
@@ -1356,6 +1359,9 @@ html, body{ height: 100%; }
 }
 
 .panel-body  p{
+	text-align: left;
+	text-indent: 2em;
+	font-size: 15px;
 	padding: 0px;
 	margin: 0;
 }
@@ -1366,7 +1372,7 @@ html, body{ height: 100%; }
 	font-size: 42px;
 }
 
-.panel-body  p strong span{
+.panel-body  p span{
 	color: #e75b1e;
 }
 .panel-pricing{
@@ -1375,21 +1381,6 @@ html, body{ height: 100%; }
 .panel-pricing .panel-heading{
 	background: #e75b1e;
 }
-.pricing-main .panel-footer .btn-block{
-	border-radius:0px;
-}
-.pricing-main .panel-footer a{
-	background: #e75b1e;
-	border: 3px solid #e75b1e;
-	color:#fff;
-	padding: 14px 16px;
-}
-.pricing-main .panel-footer a:hover{
-	background:none;
-	color:#202020;
-	border: 3px solid red;
-}
-
 .panel-pricing{
 	-webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
